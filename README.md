@@ -3,9 +3,9 @@ This project is a graphical scientific calculator built using C++ and the wxWidg
 ------------------------------------------------------------------------------------------
 Technologies & Tools Used:
     Language: C++
-
+    
     GUI Framework: wxWidgets 3.0.5
-
+    
     IDE/Text Editor: Visual Studio Code
 
     Compiler: g++ via MinGW64

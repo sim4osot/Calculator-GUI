@@ -15,12 +15,11 @@ Technologies & Tools Used:
 Process of Writing the Code:
 
     Class Design (OOP):
-
         Created a Calculator class encapsulating all calculator functionalities.
 
         Each scientific operation was implemented as a method (squareRoot(), logarithm(), etc.).
 
-        A basic expression evaluator was written to process simple operations in string format.
+         A basic expression evaluator was written to process simple operations in string format.
 
     GUI Setup (wxWidgets):
 

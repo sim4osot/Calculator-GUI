@@ -45,10 +45,7 @@ public:
                 ops.push(expression[i]);
             } else if (expression[i] == '/') {
                 ops.push(expression[i]);
-            } else if (expression[i] == ')') {
-                // Handle operations inside parentheses here
-                // Do the operation and push the result
-            }
+            } 
         }
 
         while (!ops.empty()) {
@@ -187,7 +184,7 @@ public:
         wxString expression = display->GetValue();
         double result = calculator.evaluateExpression(expression.ToStdString());
         display->SetValue(wxString::Format("%f", result));
-        resultDisplayed = true; // Set flag to indicate that result is shown
+        resultDisplayed = true; 
     }
 
 private:
